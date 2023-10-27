@@ -41,7 +41,7 @@ while True:
             bike.displayStock()
             choice = "A"
         elif choice == 2:
-            customer.rentalTime_b =  bike.rentHour(customer.requestVehicle("bike"))
+            customer.rentalTime_b =  bike.rentHourly(customer.requestVehicle("bike"))
             customer.rentalBasis_b = 1
             main_menu = True
             print("---------")
@@ -81,7 +81,7 @@ while True:
             car.displayStock()
             choice = "B"
         elif choice == 2:
-            customer.rentalTime_c =  car.rentHour(customer.requestVehicle("car"))
+            customer.rentalTime_c =  car.rentHourly(customer.requestVehicle("car"))
             customer.rentalBasis_c = 1
             main_menu = True
             print("---------")
